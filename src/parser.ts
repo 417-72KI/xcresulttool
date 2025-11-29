@@ -58,6 +58,8 @@ export class Parser {
     const args = [
       'xcresulttool',
       'get',
+      'test-results',
+      'summary',
       '--path',
       this.bundlePath,
       '--format',
